@@ -50,7 +50,7 @@ class ReactCircleTabStyle extends InnerBuilder {
           data: index,
           curve: curve,
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(8.0, 8, 8.0, 8),
+            padding: const EdgeInsets.all(4),
             child: Container(
               // necessary otherwise the badge will not large enough
               width: style.layoutSize,
